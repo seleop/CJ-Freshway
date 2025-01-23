@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 150px 322px;
+}
+
+.section2 .titlewrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 46px;
+    gap: 52px;
+}
+
+.section2 .titlewrap div > p {
+    font-size: 16px;
+    color: #32b638;
+}
+.section2 .titlewrap div h1 {
+    font-size: 62px;
+}
+
+
+.section2 .sec2itemwrap {
+    display: flex;
+    gap: 28px;
+}
+
+.section2 .sec2textitemwrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 44px 40px;
+    border-radius: 50px;
+    background-color: #eeeeee73;
+}
+.section2 .sec2textitemwrap .numbertext {
+    font-size: 64px;
+    font-weight: bold;
+    color: #0c5710;
+}
+
+.section2 .sec2textitemwrap div h1 {
+    color: #0c5710;
+    font-weight: bold;
+    font-size: 32px;
+}
+.section2 .sec2textitemwrap div p {
+    margin-top: 36px;
+    font-size: 14px;
+}
+
+
+.section2 .sec2itemwrap img {
+    width: 840px;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.spanwrap ul {
+    display: flex;
+    gap: 25px;
+}
+
+.spanwrap li {
+    border: 1px solid #b8b8b8;
+    width: auto;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.spanwrap a {
+    color: #a5a5a5;
+}
